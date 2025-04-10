@@ -26,7 +26,7 @@ const Todo = () => {
       toast.error("Title Or Body Can't Be Empty");
     } else {
       if (id) {
-        await axios.post(`http://localhost:1000/api/v2/addTask`, {
+        await axios.post(`https://to-do-app-new-6.onrender.com/api/v2/addTask`, {
           title: Inputs.title,
           body: Inputs.body,
           id: id,
@@ -45,7 +45,7 @@ const Todo = () => {
   const del = async (Cardid) => {
     if (id) {
       await axios
-        .delete(`http://localhost:1000/api/v2/deleteTask/${Cardid}`, {
+        .delete(`https://to-do-app-new-6.onrender.com/api/v2/deleteTask/${Cardid}`, {
           data: { id: id },
         })
         .then(() => {
@@ -66,7 +66,7 @@ const Todo = () => {
     if (id) {
       const fetch = async () => {
         await axios
-          .get(`http://localhost:1000/api/v2/getTasks/${id}`)
+          .get(`https://to-do-app-new-6.onrender.com/api/v2/getTasks/${id}`)
           .then((response) => {
             setArray(response.data.list);
           });
