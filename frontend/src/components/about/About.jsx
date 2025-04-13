@@ -9,26 +9,23 @@ const About = () => {
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ad? Non
-          animi facere vero nostrum qui repudiandae, nihil recusandae amet
-          quisquam dicta quos, praesentium ipsam libero distinctio ea, atque
-          deleniti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Distinctio rerum modi, velit iusto fuga necessitatibus dicta molestias
-          facere numquam natus quibusdam, error sunt. Eveniet iure modi est
-          recusandae, quasi ut?Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Amet, quae. Atque accusamus explicabo perferendis at
-          illum laudantium eos velit cumque vero, odio illo ipsum hic earum
-          alias cupiditate minima a! <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ad? Non
-          animi facere vero nostrum qui repudiandae, nihil recusandae amet
-          quisquam dicta quos, praesentium ipsam libero distinctio ea, atque
-          deleniti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Distinctio rerum modi, velit iusto fuga necessitatibus dicta molestias
-          facere numquam natus quibusdam, error sunt. Eveniet iure modi est
-          recusandae, quasi ut?Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Amet, quae. Atque accusamus explicabo perferendis at
-          illum laudantium eos velit cumque vero, odio illo ipsum hic earum
-          alias cupiditate minima a!
+          Welcome to our To-Do List App — your personal task manager designed to help you stay organized and productive!
+
+We created this simple yet powerful application to make task management easy and accessible for everyone. Whether you're planning your day, tracking important deadlines, or just making a grocery list, our app is built to help you stay on top of it all.
+
+With features like:
+
+Creating and managing tasks in real-time
+
+Updating your progress with a single click
+
+Keeping your list clean by deleting completed items
+
+A clean and responsive interface across devices
+
+Our goal is to combine speed, simplicity, and functionality in one seamless experience. The app is powered by a modern tech stack — a fast and secure backend built with Node.js & Express, and an intuitive front end using the latest web technologies.
+
+We're always working on improving the app. Stay tuned for new features!
         </p>
       </div>
     </div>
